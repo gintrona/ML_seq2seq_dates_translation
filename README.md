@@ -1,6 +1,6 @@
 # ML sequence to sequence modeling
 
-This script implements a basic character-level sequence-to-sequence model to translate human readable dates ("25th of June, 2009") into "machine" uniquely-formatted readable dates ("2009-06-25").
+This script implements a basic character-level sequence-to-sequence model to translate human readable dates ("25th of June, 2009") into "machine" single-formatted readable dates ("2009-06-25").
 
 ## Motivation
 The use case is largely motivated by a programming assignemnt presented in the Deep Learning Specialisation on Coursera (by Andrew Ng). In the course, an attention model is used. So I asked myself how I could tackle the same problem with an encoder-decoder architecture leveraging LSTMs neural networks. So the main motivation is to figure out how to implement this type of architectures and to go beyond a theoretical understanding. I haven't found this excercise anywhere else I decided to do it on my own.
